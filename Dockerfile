@@ -19,7 +19,7 @@ COPY . .
 EXPOSE 3000
 
 # npm start 스크립트 실행
-CMD ["npm", "start"]
+CMD ["npm", "build"]
 
 # 그리고 Dockerfile로 docker 이미지를 빌드해야한다.
 
